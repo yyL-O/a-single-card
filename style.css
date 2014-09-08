@@ -1,0 +1,125 @@
+/*reset*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;}
+body{line-height:1}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outline:0}
+ins{text-decoration:none}
+del{text-decoration:line-through}
+table{border-collapse:collapse;border-spacing:0}
+body{width:100%;font:14px "Helvetica Neue",HelveticaNeue,"Helvetica-Neue",Helvetica,"微软雅黑";color:#464646;overflow-x:hidden}
+a{text-decoration:none}
+
+/*style*/
+body{
+	font-family: 'Arial';
+	font-size: 14px;
+}
+.wrapper{
+	width: 800px; 
+	height: 600px; 
+	margin: 40px auto; 
+	position: relative; 
+	border: none; 
+	background: url(images/bg.jpg) repeat; 
+}
+.card{
+	width: 326px; 
+	height: 440px; 
+	margin: 79px 237px; 
+	position: absolute; 
+	border-radius: 10px; 
+	border: 1px solid #161b1f;
+	background: #2f363e;
+	-webkit-box-shadow: 0 15px 20px #171a1f;
+    -moz-box-shadow: 0 15px 20px #171a1f;
+    box-shadow: 0 15px 20px #171a1f;
+}
+.headPart{
+	width: 326px; 
+	height: 138px; 
+	background: #e7decd; 
+	border-radius: 10px 10px 0 0; 
+	border-top: 1px solid #f3efe6;
+}
+.decorate{
+	width: 25px; 
+	margin: 0px auto; 
+	margin-top: 21px;
+}
+.infoPart{
+	width: 326px;
+	height: 246px;
+	border-bottom: 1px solid #171a1f;
+	text-align: center;
+}
+.photo{
+	width: 326px;
+	min-height:118px;
+}
+.photo img{
+	width: 154px;
+	height: 154px;
+	position: relative;
+	margin:-76px 81px;
+	border-radius: 77px;
+	border: 4px solid #e7e0cd;
+}
+.infoPart h2{
+	font-size: 18px;
+	font-weight: 100;
+	color: #e7dfca;
+}
+.infoPart p{
+	font-size: 12px;
+	color: #555b67;
+	line-height: 26px;
+}
+.submit{
+	width: 162px;
+	height: 37px;
+	margin:16px auto;
+	border-radius: 4px;
+	border: 1px solid #171c20;
+	background: #c44b30;
+}
+.submit-btn{
+	color: #e6e1ce;
+	font-size: 10px;
+	font-weight: 800;
+	display: block;
+	width: 162px;
+	height: 37px;
+	border-radius: 4px;
+	line-height: 37px;
+	border-top: 1px solid #d16e59;
+}
+.evaluatePart{
+	color: #545c67;
+}
+.followers{
+	width: 162px;
+	height:35px;
+	float: left;
+	text-align: center;
+	font-size: 12px;
+	padding-top: 18px;
+	border-top: 1px solid #3e424d;
+	border-right: 1px solid #3e424d;
+}
+.evaluatePart span{
+	font-size: 16px;
+	font-weight: bold;
+	color: #1a1d24;
+	margin-right: 8px;
+}
+.following{
+	width: 161px;
+	height:35px;
+	float: left;
+	text-align: center;
+	font-size: 12px;
+	padding-top: 18px;
+	border-top: 1px solid #3e424d;
+	border-left: 1px solid #171a1f;
+}
